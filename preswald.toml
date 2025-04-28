@@ -1,0 +1,20 @@
+[project]
+title = "Indian Food Nutrition App"
+version = "0.1.0"
+port = 8501
+slug = "indian-food-nutrition"  
+entrypoint = "app.py"    
+
+[branding]
+name = "Indian Nutrition Insights"
+logo = "images/download.jpeg"    
+favicon = "images/food_icon.ico" 
+primaryColor = "#FF7F50"    
+
+[data.food_csv]
+type = "csv"
+path = "data/food.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
